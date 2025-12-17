@@ -74,11 +74,8 @@ docker version
 docker info
 ```
 
-📸 **Capture d’écran — Vérification Docker**
+<img width="2559" height="1331" alt="image" src="https://github.com/user-attachments/assets/9ea1193c-2bf2-42a5-95a6-01546248757d" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
