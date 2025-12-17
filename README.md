@@ -249,7 +249,4 @@ Ce TP a permis de comprendre les bases essentielles de Docker :
 
 Docker facilite le déploiement, la portabilité et la gestion des applications.
 
----
 
-📍 **Auteur :** *Étudiant*
-📅 **Année :** 2025
