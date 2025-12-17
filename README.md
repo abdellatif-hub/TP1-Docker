@@ -58,12 +58,12 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 ➡️ Redémarrage du système requis.
 
-📸 **Capture d’écran — Activation WSL2**
 
-```
+
+
 <img width="2559" height="1116" alt="image" src="https://github.com/user-attachments/assets/b7bbc913-6d9b-4bfe-aff3-a058e09ab185" />
 
-```
+
 
 ---
 
