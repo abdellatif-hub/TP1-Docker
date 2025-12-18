@@ -87,11 +87,8 @@ docker info
 docker pull ubuntu:22.04
 ```
 
-📸 **Capture — docker pull**
+<img width="2531" height="309" alt="image" src="https://github.com/user-attachments/assets/622b1a48-f53b-45d8-b828-bd202d9b0caa" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -101,6 +98,8 @@ docker pull ubuntu:22.04
 docker run -it --name tp-ubuntu ubuntu:22.04 /bin/bash
 ```
 
+<img width="2048" height="937" alt="image" src="https://github.com/user-attachments/assets/00e67afb-948f-4871-961d-bf59ef71eb0a" />
+
 ---
 
 ### 5️⃣ Installation des outils Linux
@@ -109,11 +108,8 @@ docker run -it --name tp-ubuntu ubuntu:22.04 /bin/bash
 apt update && apt install -y vim net-tools
 ```
 
-📸 **Capture — Installation outils**
+<img width="2530" height="1269" alt="image" src="https://github.com/user-attachments/assets/48c5d840-7775-4b65-ae02-91fc496cb0f5" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -123,11 +119,8 @@ apt update && apt install -y vim net-tools
 ifconfig
 ```
 
-📸 **Capture — Adresse IP**
+<img width="2539" height="742" alt="image" src="https://github.com/user-attachments/assets/8bce5753-efd3-4852-84fb-f7d3ead7c002" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -137,6 +130,9 @@ ifconfig
 docker ps
 docker ps -a
 ```
+
+<img width="2523" height="1226" alt="image" src="https://github.com/user-attachments/assets/5b699b4f-be6e-40f1-866a-f7d0a2195996" />
+
 
 📌 **Différence :**
 
@@ -151,11 +147,8 @@ docker ps -a
 echo "Bonjour Docker" > /root/msg.txt
 ```
 
-📸 **Capture — Fichier créé**
+<img width="2505" height="287" alt="image" src="https://github.com/user-attachments/assets/70498c1c-2a7d-429e-9c6a-38e4f3101319" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -170,11 +163,8 @@ RUN echo "Site Docker TP" > /var/www/html/index.html
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 ```
 
-📸 **Capture — Dockerfile**
+<img width="2559" height="1115" alt="image" src="https://github.com/user-attachments/assets/e00602f9-4972-4a2f-9719-3792ba96ad3e" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -183,6 +173,7 @@ CMD ["apache2ctl", "-D", "FOREGROUND"]
 ```bash
 docker build -t tp-apache .
 ```
+<img width="2122" height="794" alt="image" src="https://github.com/user-attachments/assets/27862109-d8b7-4b67-bca7-4812b79169d9" />
 
 ---
 
@@ -192,11 +183,8 @@ docker build -t tp-apache .
 docker run -d -p 8080:80 --name web tp-apache
 ```
 
-📸 **Capture — Navigateur localhost:8080**
+<img width="2548" height="804" alt="image" src="https://github.com/user-attachments/assets/d283c4b1-7817-4be2-a449-d9fad36f4239" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -217,11 +205,8 @@ docker run -it --name voltest -v tpdata:/data ubuntu:22.04 /bin/bash
 echo "Données persistantes" > /data/test.txt
 ```
 
-📸 **Capture — Données dans le volume**
+<img width="2000" height="472" alt="image" src="https://github.com/user-attachments/assets/d170329d-d12f-45aa-b9cc-abef8ee81a61" />
 
-```
-[ Capture ici ]
-```
 
 ---
 
@@ -232,6 +217,8 @@ docker rm -f voltest
 docker run -it --name voltest2 -v tpdata:/data ubuntu:22.04 /bin/bash
 cat /data/test.txt
 ```
+<img width="1998" height="401" alt="image" src="https://github.com/user-attachments/assets/26f08397-2fc3-4ef4-980c-6b4dcd32a6f6" />
+
 
 📌 **Résultat :** Les données sont conservées grâce au volume Docker.
 
